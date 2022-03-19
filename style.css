@@ -19,9 +19,15 @@ body {
   width: 10em;
 }
 
-.mainIndex p {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.codingLogoIndex {
+  height: 20em;
+  width: 20em;
+}
+
+/*******Sobre mi*****/
+#fotoPerfil {
+  height: 15em;
+  width: 15em;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
