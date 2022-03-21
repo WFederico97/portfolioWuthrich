@@ -1,9 +1,36 @@
+@import "./sass/vars";
 * {
     padding: 0;
     margin: 0;
 }
+#navbar{
+    a{
+        font-size: 30px;
+        font-family: 'Cinzel', serif, regular400;
+    }
+    a:hover{
+        
+        text-shadow: 1px 3px 4px #c9510c;
+        box-shadow:1px 3px 4px #000 ;
+        background: rgba(255, 255, 255, 0.378);
+    }
+}
 body {
     background-image: url(assets/background1.jpg);
+    h1,h2 {
+        font-family: 'Cinzel', serif, black900;
+        text-shadow: 1px 3px 4px #c9510c;
+    }
+    h3, h5 {
+        font-family: 'Cinzel', serif, bold700;
+        text-shadow: 1px 3px 4px #c9510c;
+    }
+    .lead, p {
+        font-family: 'Cinzel', serif, regular400;
+    }
+    #btnIndex {
+        background-color: #ffff ;
+    }
 }
 
 .dwLogo {
@@ -15,10 +42,19 @@ body {
 #iconosDiseño {
     height: 10em;
     width: 10em;
+    &:hover{
+        animation: bounce 1s normal ;
+    }
 }
 .codingLogoIndex {
     height: 15em;
     width: 15em;
+}
+footer{
+    p{
+        font-family: 'Cinzel', serif, bold700;
+        text-shadow: 1px 3px 4px #c9510c;
+    }
 }
 /*******Sobre mi*****/
 #fotoPerfil {
@@ -31,7 +67,11 @@ body {
 .logoProyecto {
     height: 10em;
     width: 10em;
+    &:hover{
+        animation: pulse 2s normal ease;
+    }
 }
+
 
 /******Contacto******/
 .fontAwesome {
@@ -42,4 +82,29 @@ body {
 .imgCabecera {
     height: 25em;
     width: 30em;
+}
+.redesSociales {
+    .fa-whatsapp:hover {
+       color: #25d366;
+    }
+    .fa-linkedin:hover {
+        color: #0077b5;
+    }
+    .fa-github:hover {
+        color: #c9510c;
+    }
+    .fa-at:hover {
+        color: #ea4335;
+    }
+}
+.btn {
+    border: 2px solid #000;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    box-shadow:1px 3px 4px #5400fc ;
+    &:hover, &:focus {
+        box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+        transform: translateY(-0.25em);
+    }
 }
