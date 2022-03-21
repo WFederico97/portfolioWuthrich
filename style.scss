@@ -21,9 +21,12 @@ body {
         font-family: 'Cinzel', serif, black900;
         text-shadow: 1px 3px 4px #c9510c;
     }
-    h3, h5 {
+    h3, h6 {
         font-family: 'Cinzel', serif, bold700;
         text-shadow: 1px 3px 4px #c9510c;
+        h6 {
+            font-size: 15px;
+        }
     }
     .lead, p {
         font-family: 'Cinzel', serif, regular400;
